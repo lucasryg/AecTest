@@ -16,8 +16,7 @@ namespace AecApiTest.Extensions
             return services;
         }
 
-        public static IServiceCollection AddJwtAuthentication(
-            this IServiceCollection services, IConfiguration config)
+        public static IServiceCollection AddJwtAuthentication(this IServiceCollection services, IConfiguration config)
         {
             var key = Encoding.UTF8.GetBytes(config["Jwt:Key"]!);
 
@@ -39,10 +38,12 @@ namespace AecApiTest.Extensions
             return services;
         }
 
-        public static IServiceCollection AddApplicationServices(
-            this IServiceCollection services)
+        public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
             services.AddScoped<IAuthService, AuthService>();
+
+            services.AddScoped<IEnderecoService, EnderecoService>();
+                
             return services;
         }
     }

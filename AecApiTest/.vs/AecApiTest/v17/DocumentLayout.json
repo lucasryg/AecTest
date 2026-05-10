@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\services\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\services\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\services\\ienderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\services\\ienderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\dtos\\enderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\dtos\\enderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\dtos\\updateenderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\dtos\\updateenderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\dtos\\createenderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\dtos\\createenderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +62,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "AecApiTest\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T23:01:50.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnderecoService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\EnderecoService.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Services\\EnderecoService.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\EnderecoService.cs",
+              "RelativeToolTip": "AecApiTest\\Services\\EnderecoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:43:27.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEnderecoService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\IEnderecoService.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Services\\IEnderecoService.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\IEnderecoService.cs",
+              "RelativeToolTip": "AecApiTest\\Services\\IEnderecoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:43:27.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Program.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Program.cs",
+              "RelativeToolTip": "AecApiTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:30:19.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateEnderecoDto.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\DTOs\\UpdateEnderecoDto.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\DTOs\\UpdateEnderecoDto.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\DTOs\\UpdateEnderecoDto.cs",
+              "RelativeToolTip": "AecApiTest\\DTOs\\UpdateEnderecoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:43:06.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateEnderecoDto.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\DTOs\\CreateEnderecoDto.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\DTOs\\CreateEnderecoDto.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\DTOs\\CreateEnderecoDto.cs",
+              "RelativeToolTip": "AecApiTest\\DTOs\\CreateEnderecoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:42:21.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnderecoDto.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\DTOs\\EnderecoDto.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\DTOs\\EnderecoDto.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\DTOs\\EnderecoDto.cs",
+              "RelativeToolTip": "AecApiTest\\DTOs\\EnderecoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:36:17.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\AuthService.cs",
+              "RelativeToolTip": "AecApiTest\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:19:57.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Controllers\\EnderecoController.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Controllers\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Controllers\\EnderecoController.cs",
+              "RelativeToolTip": "AecApiTest\\Controllers\\EnderecoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:55:06.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AecApiTest\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:54:58.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Models\\Roles.cs",
               "RelativeDocumentMoniker": "AecApiTest\\Models\\Roles.cs",
@@ -35,19 +201,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T22:22:14.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "AecApiTest\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\AuthService.cs",
-              "RelativeToolTip": "AecApiTest\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T22:19:57.334Z",
               "EditorCaption": ""
             }
           ]
