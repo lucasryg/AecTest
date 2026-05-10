@@ -1,0 +1,6 @@
+@AecApiTest_HostAddress = http://localhost:5136
+
+GET {{AecApiTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

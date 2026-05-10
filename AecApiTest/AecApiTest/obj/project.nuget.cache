@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OfDv2XDb1Hw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\AecApiTest\\AecApiTest\\AecApiTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.15\\microsoft.aspnetcore.openapi.9.0.15.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
