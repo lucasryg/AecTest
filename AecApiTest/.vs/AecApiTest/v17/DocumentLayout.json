@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\AecApiTest\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\aectest\\aecapitest\\aecapitest\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC36847-E33A-44A9-AE7A-F88BE7F1D83B}|AecApiTest\\AecApiTest.csproj|solutionrelative:aecapitest\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Models\\Roles.cs",
+              "RelativeToolTip": "AecApiTest\\Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:22:14.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AecApiTest\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\AecTest\\AecApiTest\\AecApiTest\\Services\\AuthService.cs",
+              "RelativeToolTip": "AecApiTest\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:19:57.334Z",
+              "EditorCaption": ""
             }
           ]
         }
