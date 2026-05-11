@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AecApiTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65c90c9ec3f3c25323b24410f90ff5a036c3c623")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8954c6c9c298ac67be16f7e8db6fbf7fe5cf00c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AecApiTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AecApiTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

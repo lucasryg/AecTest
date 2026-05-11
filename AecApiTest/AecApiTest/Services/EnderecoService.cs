@@ -78,21 +78,34 @@ namespace AecApiTest.Services
 
             return true;
         }
-
         public async Task<byte[]> ExportarCsvAsync(int usuarioId)
         {
-            var enderecos = await db.Enderecos.Where(e => e.IdUsuario == usuarioId).ToListAsync();
+            var enderecos = await db.Enderecos
+                .Where(e => e.IdUsuario == usuarioId)
+                .ToListAsync();
 
             var sb = new StringBuilder();
 
-            sb.Append("Id,Cep,Logradouro,Complemento,Bairro,Cidade,Uf,Numero,CreatedAt");
+            sb.AppendLine("Id,Cep,Logradouro,Complemento,Bairro,Cidade,Uf,Numero,CreatedAt");
 
             foreach (var campos in enderecos)
             {
-                sb.Append($"{campos.IdEndereco},{campos.Cep},{campos.Logradouro},{campos.Complemento},{campos.Bairro},{campos.Cidade},{campos.Uf},{campos.Numero},{campos.CreatedAt:O}\n");
+                sb.AppendLine(
+                    $"{campos.IdEndereco}," +
+                    $"{campos.Cep}," +
+                    $"\"{campos.Logradouro}\"," +
+                    $"\"{campos.Complemento}\"," +
+                    $"\"{campos.Bairro}\"," +
+                    $"\"{campos.Cidade}\"," +
+                    $"{campos.Uf}," +
+                    $"{campos.Numero}," +
+                    $"{campos.CreatedAt:O}"
+                );
             }
 
-            return Encoding.UTF8.GetBytes(sb.ToString());
+            return Encoding.UTF8.GetPreamble()
+                .Concat(Encoding.UTF8.GetBytes(sb.ToString()))
+                .ToArray();
         }
 
         private static EnderecoDto ToDto(Enderecos e) => new()

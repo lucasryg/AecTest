@@ -33,7 +33,7 @@
   },
   {
     "ContainingType": "AecApiTest.Controllers.AuthController",
-    "Method": "Me",
+    "Method": "MeusDados",
     "RelativePath": "api/Auth/meusDados",
     "HttpMethod": "GET",
     "IsController": true,

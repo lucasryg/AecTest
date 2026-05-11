@@ -13,23 +13,12 @@ namespace AecApiTest.Services
     {
         public async Task<LoginResponse?> LoginAsync(LoginRequest request)
         {
-            string hash = "";
-
             var usuario = await db.Usuarios.FirstOrDefaultAsync(u => u.Usuario == request.Username);
 
-            if (usuario != null)
-            {
-                hash = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
-            }
-
-            if (usuario == null || !BCrypt.Net.BCrypt.Verify(request.Password, hash))
-            {
+            if (usuario is null || !BCrypt.Net.BCrypt.Verify(request.Password, usuario.Senha))
                 return null;
-            }
 
-            var token = GerarToken(usuario.IdUsuario, usuario.Usuario, usuario.Role);
-
-            return token;
+            return GerarToken(usuario.IdUsuario, usuario.Usuario, usuario.Role);
         }
 
         public async Task<UsuarioDto?> MeusDadosAsync(int usuarioId)
@@ -58,6 +47,7 @@ namespace AecApiTest.Services
             var usuario = new Usuarios
             {
                 Usuario = request.Username,
+                Nome = request.Nome,
                 Senha = BCrypt.Net.BCrypt.HashPassword(request.Password),
                 Role = Roles.Cliente
             };

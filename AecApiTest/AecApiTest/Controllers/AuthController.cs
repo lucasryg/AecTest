@@ -36,7 +36,7 @@ namespace AecApiTest.Controllers
 
         [Authorize]
         [HttpGet("meusDados")]
-        public async Task<IActionResult> Me()
+        public async Task<IActionResult> MeusDados()
         {
             var usuarioId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 

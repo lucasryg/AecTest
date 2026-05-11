@@ -26,7 +26,7 @@ namespace AecApiTest.Controllers
         {
             var endereco = await enderecoService.ObterPorIdAsync(id, UsuarioId);
 
-            if (endereco is null)
+            if (endereco == null)
             {
                 return NotFound(new { message = "Endereço não econtrado." });
             }
@@ -47,7 +47,7 @@ namespace AecApiTest.Controllers
         {
             var endereco = await enderecoService.AtualizarAsync(id, dto, UsuarioId);
 
-            if (endereco is null)
+            if (endereco == null)
             {
                 return NotFound(new { message = "Endereço não encontrado." });
             }
