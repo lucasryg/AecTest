@@ -32,13 +32,16 @@ O sistema permite:
 
 ### Backend
 
-```bash
 cd backend
-
 dotnet restore
 dotnet ef database update
 dotnet run
 
+### Frontend
+npm install
+npm run dev
+
+```bash
 🔑 Configurações
 
 Atualmente algumas chaves e configurações sensíveis estão diretamente no código apenas por se tratar de um projeto de estudos/teste.
