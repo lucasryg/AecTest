@@ -1,5 +1,6 @@
 ﻿using AecApiTest.Data;
 using AecApiTest.DTOs;
+using AecApiTest.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -8,13 +9,13 @@ using System.Text;
 
 namespace AecApiTest.Services
 {
-    public class AuthService(AppDbContext context, IConfiguration configuration) : IAuthService
+    public class AuthService(AppDbContext db, IConfiguration configuration) : IAuthService
     {
         public async Task<LoginResponse?> LoginAsync(LoginRequest request)
         {
             string hash = "";
 
-            var usuario = await context.Usuarios.FirstOrDefaultAsync(u => u.Usuario == request.Username);
+            var usuario = await db.Usuarios.FirstOrDefaultAsync(u => u.Usuario == request.Username);
 
             if (usuario != null)
             {
@@ -29,6 +30,43 @@ namespace AecApiTest.Services
             var token = GerarToken(usuario.IdUsuario, usuario.Usuario, usuario.Role);
 
             return token;
+        }
+
+        public async Task<UsuarioDto?> MeusDadosAsync(int usuarioId)
+        {
+            var usuario = await db.Usuarios.FindAsync(usuarioId);
+
+            if (usuario is null) return null;
+
+            return new UsuarioDto
+            {
+                Id = usuario.IdUsuario,
+                Username = usuario.Usuario,
+                Role = usuario.Role
+            };
+        }
+
+        public async Task<bool> RegistrarAsync(RegisterRequest request)
+        {
+            var existeUser = await db.Usuarios.AnyAsync(u => u.Usuario == request.Username);
+
+            if (existeUser)
+            {
+                return false;
+            }
+
+            var usuario = new Usuarios
+            {
+                Usuario = request.Username,
+                Senha = BCrypt.Net.BCrypt.HashPassword(request.Password),
+                Role = Roles.Cliente
+            };
+
+            db.Usuarios.Add(usuario);
+
+            await db.SaveChangesAsync();
+
+            return true;
         }
 
         private LoginResponse GerarToken(int usuarioid, string username, string role)
